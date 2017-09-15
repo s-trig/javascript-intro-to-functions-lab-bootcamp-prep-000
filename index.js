@@ -15,5 +15,7 @@ function logWhisper(string) {
 }
 
 function sayHiToGrandma(string) {
-  expect (sayHiToGrandma(string)).toEqual(string.lowerCase)
+  if (string === lowercase) {
+    return "I can't hear you!"
+  }
 }
